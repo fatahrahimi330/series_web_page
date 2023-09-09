@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+</head>
+<link rel="icon" type="image/x-icon" href="v.png">
+<style>
+    body {
+    background-image: url('D.png' );
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+    .txt{
+        position: absolute;
+            top: 20%;
+            left: -2%;
+            font-size: 30px;
+            line-height: 160px;
+            margin-left: 50px;
+            color: transparent;
+            -webkit-text-stroke: 1px #faf7f7;
+            background-image: url('back.png' );
+            -webkit-background-clip: text;
+            background-position: 0;
+            animation: back 5s linear infinite;
+            
+            
+        }
+        @keyframes back{
+            100%{
+                background-position: 300px;
+            }
+        }
+        .txt1{
+            color: #f8fdfd;
+            font-size: 12px;
+            margin-top: 50px;
+            position: absolute;
+            top:40%;
+            left: 0%;
+        }
+        .circle {
+            width: 340px; 
+            height: 315px;
+            border-radius: 50%;
+            overflow: hidden; 
+            position: absolute;
+            bottom: 3%;
+            right: 0%;
+            }
+
+        .circle img {
+            width: 100%; 
+        }
+        .lab{
+           position: absolute;
+           bottom: 1%;
+           left: 1%;
+        }
+
+
+    </style>
+<head>
+<title>Series</title>
+
+<body>
+    <center>
+        <form action="fatah submit.php" method="post">
+
+        <div class = "lab">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="review">Your Review:</label><br>
+            <textarea id="review" name="review" rows="4" cols="50" required></textarea><br>
+    
+            <input type="submit" value="Submit">
+        </div>
+       
+
+    <div class = "txt">
+        <h1>The Miracle Doctor!</h1>
+    </div>
+    <div class="txt1">
+        <p>Dr. Miragar.
+            Ali is constantly ostracized because of his autism and savant syndrome.
+            Ali has difficulty communicating and has two friends in his life: his brother and a rabbit.
+            The rabbit is lost, and Ali makes a wish that people should not die.
+            Dr. Adel discovers and cares for Ali. Ali possesses extraordinary medical skills due to Savant Syndrome.
+            Ali succeeds in medicine and becomes an assistant surgeon at a hospital where Dr. Adel is the chief physician.
+            Some people in hospital management believe Ali is unfit for the job due to his illness.
+            Dr. Adel supports Ali and brings him to work.
+            Ali's presence in the hospital will have an impact on everyone around him.
+            
+             </p>
+             <h3>Watch Trailers and Clips</h3>
+             
+              
+
+    </div>
+    <div class="circle">
+        <a href="https://www.youtube.com/@DoctoreMojezehGar/videos">
+          <img src="D3.PNG" width="560" height="315" alt="YouTube video">
+        </a>
+      </div>
+</form>
+</center>
+</body>
+</html>
